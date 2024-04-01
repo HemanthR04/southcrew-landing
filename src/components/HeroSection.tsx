@@ -5,6 +5,7 @@ import { HoverBorderGradient } from "./ui/hover-border-gradient";
 import ClientReview from "./ClientReview";
 import Companies from "./Companies";
 import { BackgroundBeams } from "./ui/background-beams";
+import NavSection from "./NavSection";
 
 
 
@@ -17,7 +18,7 @@ const HeroSection = () => {
     
       
       <div className="p-4 relative z-10 w-full text-center inset-x-0 ">
-      
+      <NavSection/>
         <h1 className="mt-20 md:mt-[160px] text-3xl md:text-7xl max-w-6xl font-bold mx-auto ">
           An agency that will help you Design,Develop and Rebrand.
         </h1>
