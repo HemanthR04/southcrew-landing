@@ -38,6 +38,11 @@ const config: Config = {
           },
         },
       },
+      fontFamily:{
+        GeneralSans:"General Sans",
+        Pencerio:"Pencerio",
+        Sentient:"Sentient"
+      }
     },
   },
   plugins: [addVariablesForColors],

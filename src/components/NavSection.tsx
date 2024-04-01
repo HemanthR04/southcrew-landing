@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+
+
 const NavSection = () => {
    
   return (
@@ -7,20 +9,20 @@ const NavSection = () => {
       <div>
         <ul className="flex ">
           <li>
-            <Link href={"/"}>What we do?</Link>
+            <Link href={"/"} className="text-lg">What we do?</Link>
           </li>
         </ul>
       </div>
       <div>
-        <h1 className="font-bold text-xl">SOUTHCREW</h1>
+        <h1 className="font-bold text-4xl">SOUTHCREW</h1>
       </div>
       <div>
       
         <Link
           href={"/"}
-          className="border-2 py-2 px-4  rounded-xl   shadow-neutral-300"
+          className="text-lg"
         >
-          Book a call
+          Our Work!
         </Link>
       </div>
     </div>
