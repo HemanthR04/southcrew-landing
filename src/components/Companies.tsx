@@ -9,7 +9,7 @@ const Companies = () => {
   return (
     <>
    
-    <div className='flex justify-between items-center max-w-4xl mx-auto my-4'>
+    <div className='flex justify-between items-center max-w-4xl mx-auto my-20'>
         
         <Image
         src={AdidasLogo}
