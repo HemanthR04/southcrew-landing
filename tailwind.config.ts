@@ -40,6 +40,9 @@ const config: Config = {
         GeneralSans:"General Sans",
         Pencerio:"Pencerio",
         Sentient:"Sentient"
+      },
+      backgroundColor:{
+        '1A1A1A':'#1A1A1A'
       }
     },
   },
