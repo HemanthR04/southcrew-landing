@@ -6,6 +6,7 @@ import ClientReview from "./ClientReview";
 import Companies from "./Companies";
 import { BackgroundBeams } from "./ui/background-beams";
 import NavSection from "./NavSection";
+import { WavyBackground } from "./ui/wavy-background";
 
 
 
@@ -15,7 +16,7 @@ const HeroSection = () => {
     <>
     
     <div className=" h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
-    
+    <WavyBackground>
       
       <div className="p-4 relative z-10 w-full text-center inset-x-0 ">
       <NavSection/>
@@ -43,9 +44,11 @@ const HeroSection = () => {
         
 
         
-        <BackgroundBeams />
+        
       </div>
+      </WavyBackground>
     </div>
+    
     </>
     
   );
